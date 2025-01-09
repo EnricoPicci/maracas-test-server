@@ -1,0 +1,3 @@
+/Users/administrator/.m2/repository/com/test-maracas/app/test-server/1.0-SNAPSHOT/test-server-1.0-SNAPSHOT.jar
+
+/Users/administrator/.m2/repository/com/test-maracas/app/test-server/2.0-SNAPSHOT/test-server-2.0-SNAPSHOT.jar

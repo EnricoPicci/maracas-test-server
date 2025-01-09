@@ -1,16 +1,20 @@
 package com.testmaracas.server;
 
 public class Server {
-    public String doStuff() {
+    // Change the signature of this API
+    public String doStuff(String name) {
         // Implementation of doStuff method
         System.out.println("Doing stuff...");
-        return "Stuff done!";
+        // Hey name, I am doing stuff for you
+        String prefix = "Hey " + name + ", ";
+        return prefix + "Stuff done for you!";
     }
 
-    public String echo(String message) {
-        // Implementation of echo method
-        return message;
-    }
+    // remove this method which means to remove one API offered by the server
+    // public String echo(String message) {
+    // // Implementation of echo method
+    // return message;
+    // }
 
     public String echo(String message, int times) {
         // Implementation of echo method
@@ -19,5 +23,11 @@ public class Server {
             sb.append(message);
         }
         return sb.toString();
+    }
+
+    // This is a new API offered by the server
+    public String newEcho(String message) {
+        // Implementation of echo method
+        return "From new Echo: " + message;
     }
 }
